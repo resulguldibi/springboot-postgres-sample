@@ -5,7 +5,9 @@ This sample consist of components below:
  * postgres
 
 # postgres-api (springboot)
+postgres-api list sample entities in postgres database. List stored samples in postgres using command below:
 
+<pre><code>curl -kv http://localhost:8080/entities</code></pre>
 
 # postgres
 postgres stores sample data in samples table (in my_database database)
